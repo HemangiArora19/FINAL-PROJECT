@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Box icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+    <!-- Custom StyleSheet -->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Boy’s T-Shirt - Codevo</title>
+  </head>
+
+  <body>
+    <!-- Navigation -->
+    <div class="top-nav">
+      <div class="container d-flex">
+        <p>Order Online Or Call Us: (001) 2222-55555</p>
+        <ul class="d-flex">
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="navigation">
+      <div class="nav-center container d-flex">
+        <a href="index.html" class="logo"><h1>H3I</h1></a>
+
+        <ul class="nav-list d-flex">
+          <li class="nav-item">
+            <a href="/" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="product.html" class="nav-link">Shop</a>
+          </li>
+          <li class="nav-item">
+            <a href="#terms" class="nav-link">Terms</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+          <li class="icons d-flex">
+            <a href="login.html" class="icon">
+              <i class="bx bx-user"></i>
+            </a>
+            <div class="icon">
+              <i class="bx bx-search"></i>
+            </div>
+            <div class="icon">
+              <i class="bx bx-heart"></i>
+              <span class="d-flex">0</span>
+            </div>
+            <a href="cart.html" class="icon">
+              <i class="bx bx-cart"></i>
+              <span class="d-flex">0</span>
+            </a>
+          </li>
+        </ul>
+
+        <div class="icons d-flex">
+          <a href="login.html" class="icon">
+            <i class="bx bx-user"></i>
+          </a>
+          <div class="icon">
+            <i class="bx bx-search"></i>
+          </div>
+          <div class="icon">
+            <i class="bx bx-heart"></i>
+            <span class="d-flex">0</span>
+          </div>
+          <a href="cart.html" class="icon">
+            <i class="bx bx-cart"></i>
+            <span class="d-flex">0</span>
+          </a>
+        </div>
+
+        <div class="hamburger">
+          <i class="bx bx-menu-alt-left"></i>
+        </div>
+      </div>
+    </div>
+
+    <!-- Product Details -->
+    <section class="section product-detail">
+      <div class="details container">
+        <div class="left image-container">
+          <div class="main">
+            <img src="./images/product-1.jpg" id="zoom" alt="" />
+          </div>
+        </div>
+        <div class="right">
+          <span>Home/T-shirt</span>
+          <h1> WOMEN'S Top </h1>
+          <div class="price">₹700</div>
+          <form>
+            <div>
+              <select>
+                <option value="Select Size" selected disabled>
+                  Select Size
+                </option>
+                <option value="1">32</option>
+                <option value="2">42</option>
+                <option value="3">52</option>
+                <option value="4">62</option>
+              </select>
+              <span><i class="bx bx-chevron-down"></i></span>
+            </div>
+          </form>
+          <form class="form">
+            <input type="text" placeholder="1" />
+            <a href="cart.html" class="addCart">Add To Cart</a>
+          </form>
+          <h3>Product Detail</h3>
+          <p>
+           Care Instructions: Hand Wash Only
+           <br>
+           Fit Type: Regular Fit
+           <br>
+           Fabric: Cotton Blend
+           <br>
+           Sleeve Type: Full Sleeve
+           <br>
+           Neck Style: Round Neck
+           
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Related -->
+    <section class="section featured">
+      <div class="top container">
+        <h1>Related Products</h1>
+        <a href="#" class="view-more">View more</a>
+      </div>
+      <div class="product-center container">
+        <div class="product-item">
+          <div class="overlay">
+            <a href="" class="product-thumb">
+              <img src="data:image/jpeg;base64,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" alt="" />
+            </a>
+          </div>
+          <div class="product-info">
+            <span>WOMAN'S CLOTHES</span>
+            <a href="">WHITE LACE WOMAN Top</a>
+            <h4>₹789</h4>
+          </div>
+          <ul class="icons">
+            <li><i class="bx bx-heart"></i></li>
+            <li><i class="bx bx-search"></i></li>
+            <li><i class="bx bx-cart"></i></li>
+          </ul>
+        </div>
+        <div class="product-item">
+          <div class="overlay">
+            <a href="" class="product-thumb">
+              <img src="https://rukminim1.flixcart.com/image/300/300/kjuby4w0/t-shirt/4/f/7/xl-fc4057-fastcolors-original-imafzbj56yxpkzzh.jpeg?q=90" alt="" />
+            </a>
+            <span class="discount">40%</span>
+          </div>
+          <div class="product-info">
+            <span>MEN'S CLOTHES</span>
+            <a href="">Men's Regular Fit T-Shirt</a>
+            <h4>₹689</h4>
+          </div>
+          <ul class="icons">
+            <li><i class="bx bx-heart"></i></li>
+            <li><i class="bx bx-search"></i></li>
+            <li><i class="bx bx-cart"></i></li>
+          </ul>
+        </div>
+        <div class="product-item">
+          <div class="overlay">
+            <a href="" class="product-thumb">
+              <img src="https://rukminim1.flixcart.com/image/332/398/kfeamq80-0/t-shirt/w/e/8/l-togo-try-this-original-imafvvbgytpenkkg.jpeg?q=50" alt="" />
+            </a>
+          </div>
+          <div class="product-info">
+            <span>WOMAN'S CLOTHES</span>
+            <a href=""></a>
+            <h4>₹700</h4>
+          </div>
+          <ul class="icons">
+            <li><i class="bx bx-heart"></i></li>
+            <li><i class="bx bx-search"></i></li>
+            <li><i class="bx bx-cart"></i></li>
+          </ul>
+        </div>
+        <div class="product-item">
+          <div class="overlay">
+            <a href="" class="product-thumb">
+              <img src="https://the1shopindia.com/wp-content/uploads/2016/03/s-101-try-this-original-imafuvgbqkvhtmwp.jpeg" alt="" />
+            </a>
+            <span class="discount">40%</span>
+          </div>
+          <div class="product-info">
+            <span>MEN'S CLOTHES</span>
+            <a href="">Men's Regular Fit T-Shirt</a>
+            <h4>₹700</h4>
+          </div>
+          <ul class="icons">
+            <li><i class="bx bx-heart"></i></li>
+            <li><i class="bx bx-search"></i></li>
+            <li><i class="bx bx-cart"></i></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="row">
+        <div class="col d-flex">
+          <h4>INFORMATION</h4>
+          <a href="">About us</a>
+          <a href="">Contact Us</a>
+          <a href="">Term & Conditions</a>
+          <a href="">Shipping Guide</a>
+        </div>
+        <div class="col d-flex">
+          <h4>USEFUL LINK</h4>
+          <a href="">Online Store</a>
+          <a href="">Customer Services</a>
+          <a href="">Promotion</a>
+          <a href="">Top Brands</a>
+        </div>
+        <div class="col d-flex">
+          <span><i class="bx bxl-facebook-square"></i></span>
+          <span><i class="bx bxl-instagram-alt"></i></span>
+          <span><i class="bx bxl-github"></i></span>
+          <span><i class="bx bxl-twitter"></i></span>
+          <span><i class="bx bxl-pinterest"></i></span>
+        </div>
+      </div>
+    </footer>
+    <!-- Custom Script -->
+    <script src="./js/index.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.0.min.js"
+      integrity="sha384-JUMjoW8OzDJw4oFpWIB2Bu/c6768ObEthBMVSiIx4ruBIEdyNSUQAjJNFqT5pnJ6"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/zoomsl.min.js"></script>
+    <script>
+      $(function () {
+        console.log("hello");
+        $("#zoom").imagezoomsl({
+          zoomrange: [4, 4],
+        });
+      });
+    </script>
+  </body>
+</html>
